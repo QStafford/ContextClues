@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){  
-    var alert = document.getElementsByTagName("h3")
-    alert.addEventListener("click", function(){
-        alert('Accusation: I accuse Jane, with the paper clip in the copy room!')
-    })
+    var Accuse = document.createElement("h3")
+    var accuseText = document.createTextNode('Accusation')
+    Accuse.appendChild(accuseText)
+    document.body.appendChild(Accuse)
 })
